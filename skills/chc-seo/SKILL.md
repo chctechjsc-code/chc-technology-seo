@@ -59,6 +59,12 @@ Nhận URL/chủ đề, mục tiêu và dữ liệu sẵn có. Hỏi chỉ thôn
 
 Skill này gồm 1 bộ điều phối và 25 hướng dẫn CHC Việt–Anh; mã nguồn đầy đủ của 26 quy trình gốc và 60+ script nằm ngay trong skill. Đọc hướng dẫn CHC theo ngôn ngữ yêu cầu, sau đó đọc GUIDE.md chi tiết của chế độ liên quan. Các tích hợp cần tài khoản/API chỉ hoạt động khi người dùng có quyền và cấu hình hợp lệ.
 
+## Setup and doctor / Cài đặt và kiểm tra
+
+Khi người dùng gọi `setup` hoặc yêu cầu chuẩn bị công cụ, chạy `"${CLAUDE_PLUGIN_ROOT}/skills/chc-seo/scripts/claude-seo" setup`, sau đó chạy `"${CLAUDE_PLUGIN_ROOT}/skills/chc-seo/scripts/claude-seo" doctor --json` và báo kết quả. Khi gọi `doctor`, chỉ chạy lệnh kiểm tra. Nếu môi trường không cho chạy Bash hoặc thiếu Python 3.11–3.14, giải thích điều kiện còn thiếu và đưa lệnh trong README; không báo setup thành công khi chưa có kết quả.
+
+For `setup`, prepare the managed runtime and report the doctor result. For `doctor`, inspect only. Optional provider accounts and keys are configured separately.
+
 ## Tài nguyên / Resources
 
 - [Vận hành tiếng Việt](references/operations.vi.md), [English operations](references/operations.en.md): tiếp nhận, bằng chứng, scoring, xuất báo cáo và runtime.
