@@ -20,7 +20,7 @@ Nguồn gốc và bản quyền được ghi tại `THIRD-PARTY-NOTICES.md` và 
 Đẩy **toàn bộ folder repo này** lên GitHub của CHC. Người cài dùng repo CHC, không dùng URL của bản gốc:
 
 ```powershell
-git clone --depth 1 https://github.com/<owner>/chc-technology-seo.git
+git clone --depth 1 https://github.com/chctechjsc-code/chc-technology-seo.git
 powershell -ExecutionPolicy Bypass -File .\chc-technology-seo\install.ps1
 ```
 
@@ -29,7 +29,7 @@ powershell -ExecutionPolicy Bypass -File .\chc-technology-seo\install.ps1
 Cách cài trực tiếp trong Claude Code, không cần chạy `install.ps1` trước:
 
 ```text
-/plugin marketplace add <owner>/chc-technology-seo
+/plugin marketplace add chctechjsc-code/chc-technology-seo
 /plugin install chc-technology-seo@chc-technology-seo
 ```
 
