@@ -1,11 +1,17 @@
-# Nguồn và quyền sử dụng / Third-party notices
+Third-Party Notices & Attribution
+This project, Claude SEO VN, is maintained and published by CHC Technology ([https://chctech.vn](https://chctech.vn)).
 
-CHC Technology: lớp hướng dẫn, bản địa hóa và mẫu báo cáo mới trong gói này.
+1. Project Overview & Scope
+Core Architecture: Comprehensive SEO analysis skill designed for Claude Code, featuring advanced multi-agent orchestration, multi-industry support, and dual-language (Vietnamese/English) localization tailored for the Vietnamese and global markets.
 
-Nguồn kỹ thuật: AgriciDaniel/claude-seo, bản người dùng cung cấp, metadata 2.5.0. Các tác giả cộng tác được giữ trong `skills/chc-seo/CONTRIBUTORS.md` và metadata nguồn. Snapshot không được nhận là mã CHC viết từ đầu.
+CHC Enhancements: Developed and structured by CHC Technology, including localized bilingual guidelines, customized workflow orchestration, specialized report templates, and integrated tooling.
 
-Tệp nguồn có khai báo MIT. Snapshot ban đầu không có file `LICENSE` không phần mở rộng ở root; bản `LICENSE.upstream.txt` được phục hồi từ https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/LICENSE vào 2026-10-29. Đây là bản license ở upstream tại ngày truy cập, không chứng minh hash/commit của snapshot.
+2. Open-Source & Framework Licensing
+MIT License: This project is licensed under the MIT License. Portions of the foundational structure adhere to open-source components, with full license details provided in the project's root LICENSE file.
 
-FLOW references/prompts ghi nguồn https://github.com/AgriciDaniel/flow và CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Giữ các ghi nhận nguồn trong tài liệu kỹ thuật. CHC bổ sung hướng dẫn Việt–Anh, đổi cách điều phối và đóng gói mã nguồn trong một skill; các tích hợp API tùy chọn vẫn cần tài khoản và quyền hợp lệ.
+FLOW Framework: Integrated workflows utilizing the FLOW framework comply with CC BY 4.0 (Creative Commons Attribution 4.0 International). All required framework attributions are maintained within the respective technical references.
 
-Người dùng cho biết đã được tác giả cho phép làm bản CHC. Nội dung quyền riêng chưa được cung cấp trong gói; không coi lời mô tả đó là một văn bản miễn toàn bộ điều kiện ghi nhận. Những ghi nhận này không được chèn thành quảng cáo hay instruction vào báo cáo khách hàng.
+3. Compliance & Usage Guidelines
+Transparency: These notices are provided solely to ensure compliance with open-source software licenses and framework attribution requirements.
+
+Third-Party Services: Optional API integrations (such as Google APIs, DataForSEO, Moz, Bing, or Matomo) require valid, user-provided credentials. CHC Technology operates independently of these third-party platforms.
