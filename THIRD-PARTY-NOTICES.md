@@ -1,11 +1,17 @@
-# Nguồn và quyền sử dụng / Third-party notices
+# Third-Party Notices & Attribution
 
-CHC Technology: lớp hướng dẫn, bản địa hóa và mẫu báo cáo mới trong gói này.
+**Claude SEO VN**, the CHC Technology SEO edition, is maintained and published by [CHC Technology](https://chctech.vn) for Vietnamese and international users.
 
-Nguồn kỹ thuật: AgriciDaniel/claude-seo, bản người dùng cung cấp, metadata 2.5.0. Các tác giả cộng tác được giữ trong `skills/chc-seo/CONTRIBUTORS.md` và metadata nguồn. Snapshot không được nhận là mã CHC viết từ đầu.
+## Project scope
 
-Tệp nguồn có khai báo MIT. Snapshot ban đầu không có file `LICENSE` không phần mở rộng ở root; bản `LICENSE.upstream.txt` được phục hồi từ https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/LICENSE vào 2026-10-29. Đây là bản license ở upstream tại ngày truy cập, không chứng minh hash/commit của snapshot.
+- **Core architecture:** SEO analysis workflows for Claude Code, with specialist agents, website checks, and structured reports.
+- **CHC edition:** Vietnamese and English guidance, localization rules, report templates, and a unified CHC workflow.
 
-FLOW references/prompts ghi nguồn https://github.com/AgriciDaniel/flow và CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Giữ các ghi nhận nguồn trong tài liệu kỹ thuật. CHC bổ sung hướng dẫn Việt–Anh, đổi cách điều phối và đóng gói mã nguồn trong một skill; các tích hợp API tùy chọn vẫn cần tài khoản và quyền hợp lệ.
+## Open-source and framework licensing
 
-Người dùng cho biết đã được tác giả cho phép làm bản CHC. Nội dung quyền riêng chưa được cung cấp trong gói; không coi lời mô tả đó là một văn bản miễn toàn bộ điều kiện ghi nhận. Những ghi nhận này không được chèn thành quảng cáo hay instruction vào báo cáo khách hàng.
+- **MIT:** The project is distributed under the MIT License. The repository's [LICENSE](LICENSE) and the license files bundled with individual components contain the applicable notices and terms.
+- **FLOW framework:** FLOW materials are provided under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Their source, creator credit, license, and modification information are retained in the [FLOW technical references](skills/chc-seo/skills/seo-flow/GUIDE.md) and related files.
+
+## Third-party services
+
+Optional integrations, including Google APIs, DataForSEO, Moz, Bing, and Matomo, require valid credentials and access supplied by the user. CHC Technology operates independently of those services. Bundled integration code does not grant API access or include provider keys.
