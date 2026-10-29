@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: CHC Technology SEO
+message: Please cite this software using the metadata from this file.
+type: software
+authors:
+  - given-names: Quoc Cuong
+    family-names: Pham
+    affiliation: CHC Technology
+    website: 'https://chctech.vn'
+  - name: CHC Technology
+    website: 'https://chctech.vn'
+url: 'https://chctech.vn'
+license: MIT
+version: 1.0.0
+date-released: '2026-10-29'
+keywords: [seo, claude-code, schema-markup, e-e-a-t, geo]

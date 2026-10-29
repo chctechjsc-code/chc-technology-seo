@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "chc-technology-seo",
+  "owner": {
+    "name": "CHC Technology",
+    "url": "https://chctech.vn"
+  },
+  "metadata": {
+    "description": "CHC Technology SEO for Vietnamese and international users"
+  },
+  "plugins": [
+    {
+      "name": "chc-technology-seo",
+      "source": "./",
+      "description": "CHC Technology bilingual SEO",
+      "author": {
+        "name": "Pham Quoc Cuong (CHC Technology)",
+        "url": "https://chctech.vn"
+      },
+      "category": "marketing",
+      "homepage": "https://chctech.vn",
+      "keywords": [
+        "seo",
+        "vietnam",
+        "international",
+        "geo"
+      ]
+    }
+  ]
+}

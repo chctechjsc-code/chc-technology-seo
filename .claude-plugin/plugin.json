@@ -1,0 +1,21 @@
+{
+  "name": "chc-technology-seo",
+  "version": "1.0.0",
+  "description": "CHC Technology bilingual SEO guidance and public website checks for Vietnamese and international users.",
+  "author": {
+    "name": "Pham Quoc Cuong (CHC Technology)",
+    "url": "https://chctech.vn"
+  },
+  "license": "MIT",
+  "homepage": "https://chctech.vn",
+  "keywords": [
+    "seo",
+    "vietnamese",
+    "english",
+    "technical-seo",
+    "content",
+    "hreflang",
+    "schema",
+    "geo"
+  ]
+}

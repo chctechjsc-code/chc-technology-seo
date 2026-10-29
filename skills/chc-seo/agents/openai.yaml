@@ -1,0 +1,4 @@
+interface:
+  display_name: "CHC Technology SEO"
+  short_description: "SEO tiếng Việt và tiếng Anh cho CHC Technology"
+  default_prompt: "Use $chc-seo to audit my website and produce an evidence-based SEO action plan in Vietnamese or English."
